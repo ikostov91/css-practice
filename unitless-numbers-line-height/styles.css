@@ -1,0 +1,7 @@
+body {
+  line-height: 1.2; /* unitless value - gets recalculated vevery time for an element */
+}
+
+.about-us {
+  font-size: 2em;
+}

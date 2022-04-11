@@ -1,0 +1,76 @@
+:root {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body * + * {
+  margin-top: 1.5em;
+}
+
+/* Target every element on the page instead of adding to both main and sidebar individually */
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+/* if need to apply content-box to third party components
+.third-party-component {
+  box-sizing: content-box;
+} */
+
+header {
+  padding: 1em 1.5em;
+  color: #fff;
+  background-color: #0072b0;
+  border-radius: 0.5em;
+}
+
+main {
+  display: block;
+}
+
+.container {
+  display: flex;
+}
+
+.main {
+  width: 70%;
+  padding: 1em 1.5em;
+  background-color: #fff;
+  border-radius: 0.5em;
+}
+
+.sidebar {
+  width: 30%;
+  padding: 1.5em;
+  margin-left: 1.5em;
+  margin-top: 0;
+  background-color: #fff;
+  border-radius: 0.5em;
+}
+
+.button-link {
+  display: block;
+  padding: 0.5em;
+  color: #fff;
+  background-color: #0090C9;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button-link + .button-link {
+  margin-top: 1.5em;
+}
+
+.sponsor-link {
+  display: block;
+  color: #0072b0;
+  font-weight: bold;
+  text-decoration: none;
+}

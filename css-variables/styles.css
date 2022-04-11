@@ -1,0 +1,10 @@
+:root {
+  --main-font: Helvetica, Arial, sans-serif;
+  --brand-color: #369;
+}
+
+p {
+  /* variable with fallback value */
+  font-family: var(--main-font, sans-serif);
+  color: var(--brand-color, blue);
+}

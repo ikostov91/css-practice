@@ -1,0 +1,40 @@
+body {
+  font-size: 16px;
+}
+
+.box {
+  padding: 1em;
+  border-radius: 1em;
+  background-color: lightgray;
+}
+
+.box-small {
+  font-size: 12px;
+}
+
+.box-large {
+  font-size: 16px;
+}
+
+.separator {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.slogan {
+  font-size: 1.2em;
+  padding: 1.2em;
+  background-color: #ccc;
+}
+
+.shrinking-text ul {
+  font-size: .8em;
+}
+
+.corrected-text ul {
+  font-size: .8em;
+}
+
+.corrected-text ul ul {
+  font-size: 1em;
+}

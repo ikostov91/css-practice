@@ -1,0 +1,47 @@
+:root {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Target every element on the page instead of adding to both main and sidebar individually */
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+/* if need to apply content-box to third party components
+.third-party-component {
+  box-sizing: content-box;
+} */
+
+header {
+  color: #fff;
+  background-color: #0072b0;
+  border-radius: 0.5em;
+}
+
+main {
+  display: block;
+}
+
+.main {
+  float: left;
+  width: 70%;
+  background-color: #fff;
+  border-radius: 0.5em;
+}
+
+.sidebar {
+  float: left;
+  --sidebar-butter-margin: 1.5em;
+  width: calc(30% - var(--sidebar-butter-margin));
+  margin-left: var(--sidebar-butter-margin);
+  padding: 1.5em;
+  background-color: #fff;
+  border-radius: 0.5em;
+}
